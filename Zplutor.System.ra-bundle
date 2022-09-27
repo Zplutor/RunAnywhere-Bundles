@@ -1,6 +1,8 @@
 [cmd]
 Command=%WinDir%\System32\cmd.exe
+Description=Open directory of the active path with command prompt
 WorkDir={@.}
 
 [dir]
 Command=%WinDir%\explorer.exe {@.}
+Description=Open directory of the active path with explorer window

@@ -1,10 +1,15 @@
+; TortoiseGit is needed to be installed to use these commands.
+
 Git=HKLM\SOFTWARE\TortoiseGit@ProcPath
 
 [log]
 Command={Git} /command:log /path:{@}
+Description=Show history logs of the active path
 
 [diff]
 Command={Git} /command:diff /path:{@}
+Description=Show changes of the active path
 
 [blame]
 Command={Git.}\TortoiseGitBlame.exe {@}
+Description=Show last revision and author of each line of the active file
