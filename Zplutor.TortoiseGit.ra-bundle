@@ -1,0 +1,10 @@
+Git=HKLM\SOFTWARE\TortoiseGit@ProcPath
+
+[log]
+Command={Git} /command:log /path:{@}
+
+[diff]
+Command={Git} /command:diff /path:{@}
+
+[blame]
+Command={Git.}\TortoiseGitBlame.exe {@}

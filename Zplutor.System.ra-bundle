@@ -1,0 +1,6 @@
+[cmd]
+Command=%WinDir%\System32\cmd.exe
+WorkDir={@.}
+
+[dir]
+Command=%WinDir%\explorer.exe {@.}
